@@ -1,0 +1,13 @@
+{
+  "name": "rutbert.xyz",
+  "version": "0.0.1",
+  "description": "a wedding website",
+  "private": true,
+  "main": "gulpfile.js",
+  "author": "Alex Gilbert",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "harp": "^0.23.0"
+  }
+}

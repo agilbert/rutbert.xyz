@@ -1,0 +1,53 @@
+<%- include('_flower') %>
+<%- include('_house') %>
+
+<% function link(href, text) { %>
+  <a href="<%= href %>"><%= text %> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+<% } %>
+
+<img class="header" src="/header.svg" alt="Kate & Alex • Hilltop House • Devon, PA • 8.12.17" />
+
+<div class="block middle narrow is-centered">
+  <h1>RSVP</h1>
+  <p><strong>Please respond via our online RSVP form by July 15, 2017.</strong></p>
+  <p><a href="https://agilbert.typeform.com/to/syqlkU" class="button">RSVP Now</a></p>
+</div>
+
+<div class="block right narrow">
+  <h1>Venue</h1>
+  <h2><% link('http://hilltopdevon.com', 'Hilltop House') %></h2>
+  <p>
+    570 Beaumont Road
+    <br>Devon, Pennsylvania
+  </p>
+  <p><% link('https://www.google.com/maps/place/Hilltop+House/@40.0224211,-75.4300944,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6eb5a19d4bb97:0x2b57f446ff772366!8m2!3d40.022417!4d-75.4279057', 'Get directions to Hilltop House') %></p>
+</div>
+
+<div class="block left">
+  <h1>Hotel</h1>
+  <h2>Hilton Philadelphia at Penn’s Landing</h2>
+  <p>
+    201 S. Christopher Columbus Boulevard
+    <br>Philadelphia, PA 19106
+  </p>
+  <p>We have reserved a room block at a nightly rate of $199 for Friday and Saturday nights. <strong>To make sure you are a part of the group’s room block, you must book by July 7, 2017.</strong></p>
+  <p>Guests may book:</p>
+  <ul>
+    <li>by calling 1-800-HILTONS and asking for the “Rutledge-Gilbert Wedding Room Block”.</li>
+    <li>by going to <% link('http://hiltonpennslanding.com', 'the Hillton Penn\'s Landing website') %>, selecting dates of stay, clicking “Book Now” and on the following page add the Group Code “RGW”.</li>
+  </ul>
+  <p>Please note Philadelphia’s guest room tax is 15.5% per room per night. Parking is available at the hotel ($32 for self parking and $43 for valet).</p>
+  <p>We highly recommend checking out <% link('http://www.delawareriverwaterfront.com/places/spruce-street-harbor-park', 'Spruce Street Harbor Park') %> which is directly adjacent to the hotel. Open 11am-1am with delicious food, a floating beer garden, and hammocks :)</p>
+</div>
+
+<div class="block right">
+  <h1>Transportation</h1>
+  <p>There is plenty of free parking at the Hilltop House. However, if you don’t want to worry about driving, we have arranged a shuttle bus between the Hilltop House and the Hilton Philadelphia at Penn’s Landing. The shuttle will leave the hotel promptly at 3:30pm on Saturday. The return shuttle will leave the Hilltop House at 10pm.</p>
+</div>
+
+<div class="block left narrow">
+  <h1>Registry</h1>
+  <p>We have registered at <% link('https://www.crateandbarrel.com/gift-registry/kate-rutledge-and-alex-gilbert/r5681657', 'Crate & Barrel') %> and <% link('https://www.amazon.com/wedding/kate-rutledge-alex-gilbert-devon-august-2017/registry/3INNYWYDDJ5GL', 'Amazon') %>.</p>
+</div>
+
+<img class="photo" src="/photo.png" alt="Kate & Alex loving it up">
